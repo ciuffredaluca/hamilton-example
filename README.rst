@@ -16,24 +16,24 @@ hamilton-example
 
 
 
-This repo contains an implementation of a simple pipeline using [Hamilton DAG library](https://github.com/DAGWorks-Inc/hamilton/tree/main) and is a minor review on the [Hamilton sklearn example code](https://github.com/DAGWorks-Inc/hamilton/tree/main/examples/model_examples/scikit-learn).
+This repo contains an implementation of a simple ML pipeline using `Hamilton DAG library <https://github.com/DAGWorks-Inc/hamilton/tree/main>`_ and is a minor review on the `Hamilton sklearn example code. <https://github.com/DAGWorks-Inc/hamilton/tree/main/examples/model_examples/scikit-learn>`_
 
 From root run: 
 
-```
+``
 python -m hamilton_example.cli --model_type <MODEL_TYPE>
-```
+``
 
 where MODEL_TYPE is:
+
 - logistic
 - svm
 
-* Free software: GPL-3.0-only
-* Documentation: https://hamilton-example.readthedocs.io.
-
-
 Features
 --------
+
+* Free software: GPL-3.0-only
+* Documentation: https://hamilton-example.readthedocs.io.
 
 * TODO
 
