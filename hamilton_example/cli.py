@@ -5,7 +5,10 @@ import click
 import hamilton_example.data as data
 import hamilton_example.functions as functions
 
-from hamilton import base, driver
+from hamilton import base, driver, telemetry
+
+# see https://hamilton.dagworks.io/en/latest/get-started/license/#usage-analytics-data-privacy
+telemetry.disable_telemetry()
 
 
 def get_model_config(model_type: str) -> dict:
